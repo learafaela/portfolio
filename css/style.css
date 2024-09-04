@@ -1,0 +1,98 @@
+/* Estilos Globais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f9f5f2;
+    color: #333;
+  }
+  
+  header {
+    background-color:#ffffff;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img {
+    width: 160px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .imagem{
+    width: 50%;
+    max-width:100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #000;
+    border-radius: 4px;
+  }
+  
+  .rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .main {
+    position: relative;
+    padding-bottom: 150px; /* altura do rodapé */
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+  }
+  
+  html, body {
+    height: 20%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1; /* Isso faz com que a área de conteúdo ocupe o espaço restante */
+  }
+  
+  .rodape{
+    background:#ffffff; /* Exemplo de cor de fundo */
+    padding: 4px; /* Exemplo de preenchimento */
+    text-align: left/* Exemplo de alinhamento do texto */
+  }
+  
+  .social-media {
+  
+    background: #ffffff; /* Exemplo de cor de fundo */
+    padding: 50x; /* Exemplo de preenchimento */
+    text-align: right/* Exemplo de alinhamento do texto */
+  
+  }
+  
+  

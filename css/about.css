@@ -1,0 +1,52 @@
+@import url('style.css'); /* Importa o estilo geral do site */
+
+main .about {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+main .about h1, main .about h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+main .about-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+main .about-text {
+    max-width: 5px;
+    margin: 1rem 0;
+}
+
+main .about-image img {
+    max-width: 10%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 1rem;
+}
+
+main .skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main .skills ul li {
+    background-color: #fff;
+    color: #fff;
+}
+
+.minha foto{
+    width: 1%;
+    max-width: 1%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

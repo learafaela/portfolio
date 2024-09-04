@@ -1,0 +1,143 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color:#f9f5f2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Estilos para o formulário de contato */
+.contact-form {
+    background-color:#ffe7f6;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color:#ffd6ef;
+}
+
+/* Estilo para a seção de informações de contato */
+.contact-info {
+    margin-top: 40px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color:#ffd6ef;
+}
+
+/* Estilo para ícones */
+.contact-info svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.img{
+    padding: 34%;
+}
+
+.rodape{
+    background-color:#f9f5f2; /* Exemplo de cor de fundo */
+    padding: 10px; /* Exemplo de preenchimento */
+    text-align: left/* Exemplo de alinhamento do texto */
+  }
+
+  .social-media {
+
+    background:#ffd6ef; /* Exemplo de cor de fundo */
+    padding: 50x; /* Exemplo de preenchimento */
+    text-align: right/* Exemplo de alinhamento do texto */
+
+  }
+
+  .contact-image {
+    width: 22%; /* Ou use uma largura fixa, como 200px */
+    max-width: 10%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+}

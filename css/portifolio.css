@@ -1,0 +1,59 @@
+@import url('style.css'); /* Importa o estilo geral do site */
+
+main .projects {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+main .projects h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+main .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 2rem;
+}
+
+main .project-item {
+    background-color: #f4f4f4;
+    padding:0.7rem 1.5rem ;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+main .project-item img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 1px;
+}
+
+main .project-item h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+main .project-item p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+main .project-item a {
+    background-color: #fff;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+main .project-item a:hover {
+    background-color: #fff;
+}
+
+main .project-item:hover {
+    transform: scale(1.05);
+}
